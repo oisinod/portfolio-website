@@ -3,18 +3,28 @@
 @import url("footer.css");
 @import url("banner.css");
 @import url("avatar.css");
+@import url("card.css");
 body{
     margin: 0px;
     padding: 0px;
     font-family: helvetica;
     min-width: 100%;
+    margin-bottom: 0px;
+    
 }
 
 h1{
     margin: 0px;
+    color: #424b54;
 }
 
 h2{
     font-size: 20px;
     text-align: center;
+}
+
+
+.projects-heading{
+    margin-top: 50px;
+    margin-bottom: 25px;
 }

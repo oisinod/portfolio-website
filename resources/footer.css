@@ -1,11 +1,12 @@
 .footer {
     background-color: #759eb8b4;
-    height: 5vh;
+    height: 6vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
     position: sticky;
     bottom: 0px;
+    margin-top: 50px;
     width: 100%;
 }
 

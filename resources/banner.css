@@ -1,23 +1,39 @@
 .banner{
-    width:inherit;
+    
     height: 30vh;
-  
+    display: flex;
     width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
 
 }
 .wrapper {
     height: 100%; 
     width: 100%; 
-    background-image: url("https://picsum.photos/2000");
+    background-image: url("https://picsum.photos/2000?blur");
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     position:relative;
+    /* justify-content: space-between; */
+    
   }
   
   .banneravatar{
-      position:absolute;
-      bottom:0px;
-      right: 0px;
-      margin: 10px;
+      flex: 0;
+      
+      transform: scale(1.15);
+    
+  }
+
+  .bannertext {
+      color: white;
+      font-weight: lighter;
+      text-align: justify;
+      letter-spacing: 1px;
+      background-color: #424b54b0;
+      font-size: 14px;
+      width: 60vw;
+      padding: 5px;
   }
