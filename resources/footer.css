@@ -1,0 +1,20 @@
+.footer {
+    background-color: #759eb8b4;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+}
+
+i {
+    font-size: 3vh;
+}
+
+.contacttext h2 {
+    font-weight: lighter;
+}
+
+

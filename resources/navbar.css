@@ -1,0 +1,17 @@
+.navbar {
+    background-color: #759eb8b4;
+    height: 10vh;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    z-index: 10;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}
+
+.name, .fa-bars {
+    padding: 0 5vw;
+}

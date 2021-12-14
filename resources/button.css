@@ -1,0 +1,23 @@
+.button {
+    border-radius: 10px;
+    background-color:#df2935af;
+    width:100px;
+    height:50px;
+    color: rgb(221, 213, 213);
+    font-size: 75%;
+    text-align: center;
+    font-weight:200;
+    transition: background-color 0.25s linear;
+    display: flex;
+    align-items: center;
+    
+}
+
+.button:hover{
+    background-color:#DF2935;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
