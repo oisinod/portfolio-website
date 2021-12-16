@@ -12,10 +12,22 @@
 
    
     <div class="navbar">
-        <h2 class="name">Oisín O'Doherty </h2>
-        <i class="fas fa-bars"></i>
+        <h2 class="name"><a href="index.html" class="homepagelink">Oisín O'Doherty</a> </h2>
+        <!-- <button id="dropdownbutton" aria-label="Open drop down menu" type="button">
+            <i class="fas fa-bars"></i>
+         </button> -->
+        <i class="fas fa-bars" id="dropdownbutton"></i>
     </div>
 
+    <div id="dropdownbox">
+        <div id="dropdown">
+            <div id="dropdowncontent">
+                <a href="#" class="dropdownlink toplink">Home</a>
+                <a href="#" class="dropdownlink middlelink">Projects</a>
+                <a href="#" class="dropdownlink bottomlink">Contact</a>
+            </div>
+        </div>
+    </div>
 
     <div class="wrapper">
         <div class="banner">
@@ -63,5 +75,6 @@
             <i class="fab fa-linkedin"></i>
         </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
